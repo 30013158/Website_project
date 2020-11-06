@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: #e0f9bf;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav-bar {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-bar .nav-item {
+    color: rgba(0,102,51,.75);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav-bar #highlighter {
+    position: absolute;
+    transition: all 100ms ease-out;
+    z-index: -1;
+    background-color: #e0f9bf;
+  }
+
+  hr .light{
+    border-top: 3px solid #e0f9bf;
+  }
+
+  .line {
+    border-top: 2px solid rgba(0,102,51,.5);
+    width: 90px;
+  }
+  
+  section {
+    padding: 25px!important;
+  }
+
+  .section {
+    border-radius: 5px;
+    margin: 50px 10%;
+    text-align: center;
+  }  
+
+  .section-heading {
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5px!important;
+    }
+  }
+  
+  .s-1 {
+    position: relative;
+    z-index: -1;
+    padding: 0;
+    background-color: white;
+  }
+  
+  .s-2 {
+    position: relative;
+    z-index: -1;
+    background-color: white;
+  }
+  
+  .s-3 {
+    position: relative;
+    z-index: -1;
+    background-color: white;
+  }
+
+  .about {
+    padding: 10px;
+  }
+
+  .font-weight-light {
+    opacity: .60;
+  }
+
+  .block {
+    width: 300px;
+    height: 250px;
+  }
+  
+  h1{
+    color: rgba(0,102,51,.75);
+    font-size: 30px!important;
+    font-weight: 350!important;
+    text-transform: uppercase;
+  }
+  
+  h2, h5 {
+    color: #73b220;
+  }
+
+  h3 {
+    color: rgba(0,102,51,.75);
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  div > i {
+    color: rgba(0,102,51,.75);
+    font-size: 50px;
+  }
+
+  a > i, p > i {
+    color: rgba(0,102,51,.75);
+    font-size: 20px;
+  }
+
+  footer{
+    background-color: white;
+    z-index: -1;
+  }
+
+  .text-small {
+    font-size: 14px;
+  }
+
